@@ -50,24 +50,6 @@ Task Manager App is a Flutter application designed to help users manage their ta
     flutter run
     ```
 
-## Directory Structure
-
-lib/
-|-- main.dart
-|-- screens/
-|   |-- login_screen.dart
-|   |-- task_screen.dart
-|-- models/
-|   |-- task.dart
-|   |-- user.dart
-|-- services/
-|   |-- api_service.dart
-|   |-- database_helper.dart
-|-- providers/
-|   |-- auth_provider.dart
-|   |-- task_provider.dart
-
-
 ## Design Decisions
 
 ### State Management
