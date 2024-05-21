@@ -27,30 +27,83 @@ Task Manager App is a Flutter application designed to help users manage their ta
 - **task_provider_test.dart:** Validates the task provider's ability to manage task-related data, including creating, updating, and deleting tasks, and ensuring accurate state management.
   
 
-## Getting Started
+## How to Run the Task Manager Flutter App
 
 ### Prerequisites
+- Ensure you have Flutter (version 2.5.0 or above) and Dart installed.
 
-- Flutter (version 2.5.0 or above)
-- Dart
+### Steps to Run
 
-### Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com//task_manager_app.git
-    cd task_manager
+1. **Clone the Repository**
+    ```sh
+    git clone https://github.com/Farwakhan971/Task_Manager_Flutter_App.git
+    cd Task_Manager_Flutter_App
     ```
 
-2. Install dependencies:
-    ```bash
+2. **Install Dependencies**
+    ```sh
     flutter pub get
     ```
 
-3. Run the app:
-    ```bash
+3. **Run the App**
+    ```sh
     flutter run
     ```
 
 ## Directory Structure
+
+lib/
+|-- main.dart
+|-- screens/
+|   |-- login_screen.dart
+|   |-- task_screen.dart
+|-- models/
+|   |-- task.dart
+|   |-- user.dart
+|-- services/
+|   |-- api_service.dart
+|   |-- database_helper.dart
+|-- providers/
+|   |-- auth_provider.dart
+|   |-- task_provider.dart
+
+
+## Design Decisions
+
+### State Management
+- **Provider**: Choose Provider for state management due to its simplicity and efficiency in managing state across the app.
+
+### Local Storage
+- **SQLite**: Used SQLite for persistent local storage to ensure tasks remain accessible between app sessions. 
+
+### API Integration
+- **DummyJSON API**: Integrated with DummyJSON API for authentication and task management, providing a realistic backend simulation.
+
+### Pagination
+- **Pagination**: Implemented pagination to handle large data sets efficiently, enhancing performance and user experience.
+
+## Challenges Faced
+
+### API Integration
+- Handling edge cases and errors from the API responses to ensure a smooth user experience.
+
+### State Management
+- Managing state updates efficiently, especially with asynchronous operations such as API calls and database access.
+
+### Local Storage
+- Ensuring data consistency between the local database and the remote API, particularly with updates and deletions.
+
+##  Screens
+![Login_Screen](https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/89535a65-437d-46a3-92c0-352d8e1594e2)
+![Home_Screen](https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/f3c23359-daf5-4228-93e4-d6314554a619)
+![Add_task](https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/ba06eb97-b49d-4584-9387-8ba689e5edfc)
+![delete_task](https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/ebe325bb-4660-47ec-bc6d-502057299a4e)
+
+## Video 
+
+
+https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/0547fcaa-e862-49b1-a78e-2287dc166fad
+
+
+
 
