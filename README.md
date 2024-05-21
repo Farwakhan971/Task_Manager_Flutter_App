@@ -76,10 +76,25 @@ Task Manager App is a Flutter application designed to help users manage their ta
 - Ensuring data consistency between the local database and the remote API, particularly with updates and deletions.
 
 ##  Screens
-![Login_Screen](https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/89535a65-437d-46a3-92c0-352d8e1594e2)
-![Home_Screen](https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/f3c23359-daf5-4228-93e4-d6314554a619)
-![Add_task](https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/ba06eb97-b49d-4584-9387-8ba689e5edfc)
-![delete_task](https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/ebe325bb-4660-47ec-bc6d-502057299a4e)
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <div style="flex: 1; margin-right: 10px;">
+    <img src="https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/89535a65-437d-46a3-92c0-352d8e1594e2" alt="Login_Screen" width="100%">
+  </div>
+  <div style="flex: 1; margin-left: 10px;">
+    <img src="https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/f3c23359-daf5-4228-93e4-d6314554a619" alt="Home_Screen" width="100%">
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 20px;">
+  <div style="flex: 1; margin-right: 10px;">
+    <img src="https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/ba06eb97-b49d-4584-9387-8ba689e5edfc" alt="Add_task" width="100%">
+  </div>
+  <div style="flex: 1; margin-left: 10px;">
+    <img src="https://github.com/Farwakhan971/Task_Manager_Flutter_App/assets/130717631/ebe325bb-4660-47ec-bc6d-502057299a4e" alt="Delete_task" width="100%">
+  </div>
+</div>
+
 
 ## Video 
 
